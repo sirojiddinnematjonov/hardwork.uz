@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HARDWORK English Learning Centre</title>
+
+  <style>
+    :root {
+      --blue: #0d47a1;
+      --blue-dark: #0b3c91;
+      --blue-light: #e3f2fd;
+      --text-dark: #1a1a1a;
+      --text-light: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f7f9fc;
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--blue), #1565c0);
+      color: var(--text-light);
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1.5px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: var(--blue-dark);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--blue);
+      margin-bottom: 20px;
+      font-size: 1.9rem;
+      text-align: center;
+    }
+
+    .about p {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.05rem;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 35px;
+    }
+
+    .course-box {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.25s ease;
+    }
+
+    .course-box:hover {
+      transform: translateY(-6px);
+    }
+
+    .course-box h3 {
+      color: var(--blue);
+      margin-top: 0;
+    }
+
+    .contact {
+      background-color: var(--blue-light);
+      border-radius: 22px;
+      padding: 40px 20px;
+    }
+
+    .contact p {
+      font-size: 1.05rem;
+      text-align: center;
+      margin: 12px 0;
+    }
+
+    footer {
+      background-color: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 22px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HARDWORK</h1>
+  <p>English Learning Centre</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>
+    HARDWORK English Learning Centre helps students build strong English skills
+    through vocabulary, reading, speaking, and practical communication.
+    We focus on beginner and elementary learners in a supportive environment.
+  </p>
+</section>
+
+<section id="courses">
+  <h2>Our Courses</h2>
+  <div class="courses">
+    <div class="course-box">
+      <h3>Beginner English</h3>
+      <p>Learn basic grammar, vocabulary, and simple speaking skills.</p>
+    </div>
+    <div class="course-box">
+      <h3>Elementary English</h3>
+      <p>Improve daily communication, reading, and confidence.</p>
+    </div>
+    <div class="course-box">
+      <h3>Vocabulary & Reading</h3>
+      <p>Expand vocabulary and understand English texts more easily.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>📞 +998 93 882 09 22</p>
+  <p>📧 sirojiddinnematjonov19@gmail.com</p>
+  <p>
+    📸 Instagram:
+    <a href="https://instagram.com/davlatalievic_" target="_blank" style="color:#0d47a1; font-weight:600;">
+      @yourusername
+    </a>
+  </p>
+  <p>📍 Tashkent, Uzbekistan</p>
+</section>
+
+
+<footer>
+  <p>© 2026 HARDWORK English Learning Centre. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
